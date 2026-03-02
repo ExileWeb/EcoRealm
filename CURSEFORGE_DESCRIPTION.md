@@ -36,7 +36,7 @@ These values evolve over time and directly influence progression, events, and la
 ### Custom World Generator: Shattered Restoration
 - Dedicated **EcoRealms world preset** with custom biome routing.
 - Heavy devastation footprint (ashen wastelands + scorched highlands).
-- Isolated restoration pockets (`renewal_grove`) that become expansion targets.
+- All mapped biomes are tuned to grey/dead palettes for a fully devastated overworld tone.
 
 ### Quest-Driven Narrative Arc
 Structured chapters guide your journey from survival to restoration:
@@ -67,6 +67,7 @@ Structured chapters guide your journey from survival to restoration:
 - CurseForge-ready manifest + overrides structure.
 - KubeJS-powered eco-state framework and gameplay hooks.
 - Starter command tools (`/eco status`, admin debug controls).
+- Welcome messaging on login with version number and first-step onboarding.
 - Create-only restoration recipes and early progression loop.
 - Starter quest chapter definitions for the opening arc.
 

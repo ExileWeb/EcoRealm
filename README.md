@@ -13,11 +13,12 @@ Playable vertical-slice starter for the EcoRealms modpack.
 - Player/admin commands:
   - `/eco status`
   - `/eco debug set <key> <value>` (op only)
+- New login welcome message with quick-start guidance and version display.
 - Create-only progression recipes:
   - `ecorealms:restoration_compass_create`
   - `ecorealms:water_purifier_core_create`
 - Starter quest chapter definitions for first 3-chapter progression arc.
-- Custom world preset with devastation-forward biome distribution and restoration pockets.
+- Custom world preset where all mapped biomes are grey, dead, and devastation-forward.
 - Server balancing defaults in `overrides/config/defaultconfigs/ecorealms-server.toml`.
 
 ## Included Starter Pieces

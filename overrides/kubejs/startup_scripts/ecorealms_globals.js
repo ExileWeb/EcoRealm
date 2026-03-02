@@ -1,5 +1,7 @@
 // EcoRealms global defaults and balancing constants.
 
+global.ECOREALMS_VERSION = '0.2.1-playable-slice'
+
 global.ECOREALMS_DEFAULTS = {
   eco_corruption: 55,
   eco_biodiversity: 18,

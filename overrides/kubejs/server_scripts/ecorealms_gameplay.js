@@ -5,6 +5,13 @@ ServerEvents.loaded(event => {
   console.info('[EcoRealms] World state initialized.')
 })
 
+PlayerEvents.loggedIn(event => {
+  const player = event.player
+  player.tell(Text.gold(`Welcome to EcoRealms v${global.ECOREALMS_VERSION}`))
+  player.tell(Text.gray('Start by opening quests (default key: L) and complete "Ashes of the Old World".'))
+  player.tell(Text.gray('Your first objective is to craft a Restoration Compass and begin replanting saplings.'))
+})
+
 ServerEvents.tick(event => {
   if (event.server.tickCount % global.ECOREALMS_TICK_RATE !== 0) return
 
