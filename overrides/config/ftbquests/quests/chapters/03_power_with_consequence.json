@@ -1,0 +1,15 @@
+{
+  "id": "ecorealms:03_power_with_consequence",
+  "title": "Power With Consequence",
+  "description": "Adopt your first tech or magic pathway while maintaining ecological balance.",
+  "objectives": [
+    "Build first low-tier power setup",
+    "Keep eco_corruption <= 65 for 3 in-game days",
+    "Raise eco_air_quality >= 45"
+  ],
+  "rewards": [
+    "minecraft:redstone x32",
+    "minecraft:iron_ingot x24",
+    "minecraft:book x8"
+  ]
+}
