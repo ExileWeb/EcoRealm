@@ -1,0 +1,55 @@
+{
+  "has_precipitation": true,
+  "temperature": 0.8,
+  "downfall": 0.1,
+  "effects": {
+    "fog_color": 11053224,
+    "water_color": 4934475,
+    "water_fog_color": 329011,
+    "sky_color": 8233983,
+    "mood_sound": {
+      "sound": "minecraft:ambient.cave",
+      "tick_delay": 6000,
+      "block_search_extent": 8,
+      "offset": 2.0
+    }
+  },
+  "spawn_costs": {},
+  "carvers": {
+    "air": [
+      "minecraft:cave",
+      "minecraft:cave_extra_underground",
+      "minecraft:canyon"
+    ]
+  },
+  "features": [
+    [],
+    [],
+    [],
+    ["minecraft:lake_lava_underground"],
+    [],
+    [],
+    [],
+    [],
+    [],
+    ["minecraft:patch_grass_badlands", "minecraft:patch_dead_bush_badlands"],
+    [],
+    []
+  ],
+  "creature_spawn_probability": 0.08,
+  "spawners": {
+    "monster": [
+      { "type": "minecraft:zombie", "weight": 95, "minCount": 2, "maxCount": 4 },
+      { "type": "minecraft:skeleton", "weight": 100, "minCount": 2, "maxCount": 4 }
+    ],
+    "creature": [
+      { "type": "minecraft:goat", "weight": 15, "minCount": 1, "maxCount": 3 }
+    ],
+    "ambient": [],
+    "water_creature": [],
+    "water_ambient": [],
+    "underground_water_creature": [],
+    "axolotls": [],
+    "misc": []
+  }
+}

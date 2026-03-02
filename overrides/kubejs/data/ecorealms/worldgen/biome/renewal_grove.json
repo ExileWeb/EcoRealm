@@ -1,0 +1,59 @@
+{
+  "has_precipitation": true,
+  "temperature": 0.7,
+  "downfall": 0.8,
+  "effects": {
+    "fog_color": 12638463,
+    "water_color": 4159204,
+    "water_fog_color": 329011,
+    "sky_color": 7907327,
+    "grass_color": 7972607,
+    "foliage_color": 7455580,
+    "mood_sound": {
+      "sound": "minecraft:ambient.cave",
+      "tick_delay": 6000,
+      "block_search_extent": 8,
+      "offset": 2.0
+    }
+  },
+  "spawn_costs": {},
+  "carvers": {
+    "air": [
+      "minecraft:cave",
+      "minecraft:cave_extra_underground",
+      "minecraft:canyon"
+    ]
+  },
+  "features": [
+    [],
+    [],
+    [],
+    ["minecraft:lake_water_underground"],
+    [],
+    [],
+    [],
+    [],
+    [],
+    ["minecraft:patch_grass_forest", "minecraft:patch_berry_rare"],
+    ["minecraft:trees_birch_and_oak"],
+    []
+  ],
+  "creature_spawn_probability": 0.12,
+  "spawners": {
+    "monster": [
+      { "type": "minecraft:zombie", "weight": 90, "minCount": 2, "maxCount": 4 },
+      { "type": "minecraft:skeleton", "weight": 90, "minCount": 2, "maxCount": 4 }
+    ],
+    "creature": [
+      { "type": "minecraft:wolf", "weight": 8, "minCount": 2, "maxCount": 4 },
+      { "type": "minecraft:fox", "weight": 8, "minCount": 2, "maxCount": 4 },
+      { "type": "minecraft:pig", "weight": 10, "minCount": 2, "maxCount": 4 }
+    ],
+    "ambient": [],
+    "water_creature": [],
+    "water_ambient": [],
+    "underground_water_creature": [],
+    "axolotls": [],
+    "misc": []
+  }
+}

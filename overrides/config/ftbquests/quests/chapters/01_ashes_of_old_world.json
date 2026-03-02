@@ -1,0 +1,15 @@
+{
+  "id": "ecorealms:01_ashes_of_old_world",
+  "title": "Ashes of the Old World",
+  "description": "Survey corruption and establish your first restoration outpost.",
+  "objectives": [
+    "Craft a Restoration Compass (ecorealms:restoration_compass recipe)",
+    "Plant 16 saplings",
+    "Use bone meal 8 times in damaged terrain"
+  ],
+  "rewards": [
+    "minecraft:bread x16",
+    "minecraft:oak_sapling x16",
+    "minecraft:bone_meal x24"
+  ]
+}

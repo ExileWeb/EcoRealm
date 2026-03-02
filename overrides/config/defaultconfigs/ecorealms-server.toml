@@ -1,0 +1,16 @@
+# EcoRealms server balancing profile
+
+[world_state]
+passive_decay_interval_ticks = 1200
+max_corruption_warning = 70
+
+[restoration]
+sapling_biodiversity_gain = 1
+bonemeal_water_gain = 1
+
+[progression]
+world_tier_unlock_1 = 25
+world_tier_unlock_2 = 45
+world_tier_unlock_3 = 60
+world_tier_unlock_4 = 75
+world_tier_unlock_5 = 90

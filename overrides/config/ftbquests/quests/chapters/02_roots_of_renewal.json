@@ -1,0 +1,15 @@
+{
+  "id": "ecorealms:02_roots_of_renewal",
+  "title": "Roots of Renewal",
+  "description": "Push biodiversity and water recovery to stabilize your region.",
+  "objectives": [
+    "Reach eco_biodiversity >= 30",
+    "Reach eco_water_quality >= 50",
+    "Build a basic farm and harvest 64 crops"
+  ],
+  "rewards": [
+    "minecraft:bee_nest x1",
+    "minecraft:honey_bottle x8",
+    "minecraft:bucket x4"
+  ]
+}
