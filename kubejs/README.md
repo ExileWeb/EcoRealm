@@ -1,7 +1,13 @@
-# KubeJS Source Notes
+# KubeJS Starter
 
-Runtime KubeJS scripts used by the pack live under:
-- `overrides/kubejs/startup_scripts/`
-- `overrides/kubejs/server_scripts/`
+## Script Layout
+- `startup_scripts/`: constants, item registrations, global bootstrap.
+- `server_scripts/`: progression logic, event handlers, environmental state updates.
 
-The root `kubejs/` folder is kept as a lightweight documentation anchor only.
+## Current Starter Scripts
+- `startup_scripts/ecorealms_globals.js`: default world-state values.
+- `server_scripts/ecorealms_events.js`: placeholder hooks for pollution/restoration logic.
+
+## Conventions
+- Keep global state keys prefixed with `eco_`.
+- Keep debug/admin commands under `/eco debug ...`.
