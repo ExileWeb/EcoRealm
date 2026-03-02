@@ -1,12 +1,6 @@
-# FTB Quests Starter
+# FTB Quests Source Notes
 
-Place chapter JSON files in `chapters/`.
+Runtime quest starter files for this pack live under:
+- `overrides/config/ftbquests/quests/`
 
-Recommended initial chapter order:
-1. Ashes of the Old World
-2. Roots of Renewal
-3. Power With Consequence
-4. Paths of Civilization
-5. Frontiers and Ruins
-6. The Planet Responds
-7. Cycle Ascendant
+The root `ftbquests/` folder is retained for repository orientation.

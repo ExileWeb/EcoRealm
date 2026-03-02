@@ -1,15 +1,20 @@
-// Early playable loop recipes for restoration tools.
+// Create-focused restoration recipes.
+// All custom progression recipes in this file are gated through Create components only.
 
 ServerEvents.recipes(event => {
-  event.shaped('minecraft:compass', [' L ', 'RIR', ' L '], {
-    L: 'minecraft:oak_leaves',
-    R: 'minecraft:rotten_flesh',
-    I: 'minecraft:iron_ingot'
-  }).id('ecorealms:restoration_compass')
+  // Restoration Compass: early scouting tool tied to Create progression.
+  event.shaped('minecraft:compass', [' C ', 'SAS', ' B '], {
+    C: 'create:cogwheel',
+    S: 'create:shaft',
+    A: 'create:andesite_alloy',
+    B: 'minecraft:copper_ingot'
+  }).id('ecorealms:restoration_compass_create')
 
-  event.shaped('minecraft:heart_of_the_sea', ['WBW', 'BDB', 'WBW'], {
-    W: 'minecraft:water_bucket',
-    B: 'minecraft:bone_meal',
-    D: 'minecraft:diamond'
-  }).id('ecorealms:water_purifier_core')
+  // Water Purifier Core: recovery milestone tied to midgame Create infrastructure.
+  event.shaped('minecraft:heart_of_the_sea', ['TCT', 'BGB', 'TCT'], {
+    T: 'create:fluid_tank',
+    C: 'create:copper_casing',
+    B: 'create:andesite_alloy',
+    G: 'create:precision_mechanism'
+  }).id('ecorealms:water_purifier_core_create')
 })

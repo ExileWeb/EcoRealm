@@ -32,6 +32,12 @@ These values evolve over time and directly influence progression, events, and la
 - Restoration actions (reforestation, nature support, cleanup loops) improve global conditions.
 - Stabilizing the world unlocks stronger progression paths and safer exploration.
 
+
+### Custom World Generator: Shattered Restoration
+- Dedicated **EcoRealms world preset** with custom biome routing.
+- Heavy devastation footprint (ashen wastelands + scorched highlands).
+- Isolated restoration pockets (`renewal_grove`) that become expansion targets.
+
 ### Quest-Driven Narrative Arc
 Structured chapters guide your journey from survival to restoration:
 1. Ashes of the Old World
@@ -61,7 +67,7 @@ Structured chapters guide your journey from survival to restoration:
 - CurseForge-ready manifest + overrides structure.
 - KubeJS-powered eco-state framework and gameplay hooks.
 - Starter command tools (`/eco status`, admin debug controls).
-- Starter restoration recipes and early progression loop.
+- Create-only restoration recipes and early progression loop.
 - Starter quest chapter definitions for the opening arc.
 
 ---

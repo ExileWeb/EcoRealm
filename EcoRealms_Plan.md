@@ -4,6 +4,32 @@
 
 This shortlist is intentionally **curated for stability and maintainability**, not just feature breadth. It prioritizes widely-used mods with active communities and good datapack/KubeJS integration.
 
+## Required Mods from the Pack Concept
+
+These are the required anchor mods from the original EcoRealms concept, explicitly included so the pack vision is preserved.
+
+### Required Gameplay Anchors
+- **Mekanism** (tech progression backbone)
+- **Immersive Engineering** (infrastructure + immersive power)
+- **Botania** (nature-magic restoration path)
+- **MineColonies** (civilization progression)
+- **Waystones** (exploration routing + world traversal)
+- **Valhelsia Structures** (adventure content density)
+
+### Required Progression/UX Anchors
+- **FTB Quests** (or HQM equivalent if you intentionally swap frameworks)
+- **Better Advancements**
+- **JEI**
+- **Jade**
+
+### Required Supporting Dependencies
+- **Structurize** (MineColonies dependency)
+- **FTB Teams** (for party quest behavior)
+- **FTB Chunks** (multiplayer land-claim baseline)
+- **KubeJS** (state-driven progression logic)
+
+> Note: If a required mod is unavailable/stable for your exact target version, keep the gameplay pillar and replace with a functionally equivalent mod while preserving quest gates and balance assumptions.
+
 ---
 
 ## Option A (Recommended): Minecraft **1.20.1 Forge**
