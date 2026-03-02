@@ -1,0 +1,31 @@
+{
+  id: "ecorealms:chapter_03"
+  title: "Power With Consequence"
+  icon: "create:cogwheel"
+  x: 44.0d
+  y: 0.0d
+  quests: [{
+    id: "ecorealms:q_power"
+    x: 44.0d
+    y: 0.0d
+    title: "Mechanical Dawn"
+    description: "Build your first Create machines while stabilizing the region."
+    tasks: [{
+      id: "ecorealms:t_alloy"
+      type: "item"
+      item: "create:andesite_alloy"
+      count: 16L
+    },{
+      id: "ecorealms:t_casing"
+      type: "item"
+      item: "create:copper_casing"
+      count: 8L
+    }]
+    rewards: [{
+      id: "ecorealms:r_power"
+      type: "item"
+      item: "create:shaft"
+      count: 16L
+    }]
+  }]
+}

@@ -1,0 +1,31 @@
+{
+  id: "ecorealms:chapter_02"
+  title: "Roots of Renewal"
+  icon: "minecraft:oak_sapling"
+  x: 22.0d
+  y: 0.0d
+  quests: [{
+    id: "ecorealms:q_roots"
+    x: 22.0d
+    y: 0.0d
+    title: "Green Return"
+    description: "Expand your farm and begin ecosystem recovery."
+    tasks: [{
+      id: "ecorealms:t_crop"
+      type: "item"
+      item: "minecraft:wheat"
+      count: 64L
+    },{
+      id: "ecorealms:t_water"
+      type: "item"
+      item: "minecraft:water_bucket"
+      count: 2L
+    }]
+    rewards: [{
+      id: "ecorealms:r_roots"
+      type: "item"
+      item: "minecraft:honey_bottle"
+      count: 8L
+    }]
+  }]
+}

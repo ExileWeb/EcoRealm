@@ -1,0 +1,18 @@
+{
+  "minecraft": {
+    "version": "1.20.1",
+    "modLoaders": [
+      {
+        "id": "forge-47.2.0",
+        "primary": true
+      }
+    ]
+  },
+  "manifestType": "minecraftModpack",
+  "manifestVersion": 1,
+  "name": "EcoRealms: Rise & Restore",
+  "version": "0.2.2-playable-slice",
+  "author": "EcoRealms Team",
+  "files": [],
+  "overrides": "overrides"
+}

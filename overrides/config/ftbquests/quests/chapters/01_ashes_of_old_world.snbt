@@ -1,0 +1,31 @@
+{
+  id: "ecorealms:chapter_01"
+  title: "Ashes of the Old World"
+  icon: "minecraft:compass"
+  x: 0.0d
+  y: 0.0d
+  quests: [{
+    id: "ecorealms:q_start"
+    x: 0.0d
+    y: 0.0d
+    title: "First Restoration Steps"
+    description: "Craft your Restoration Compass and replant the ruined land."
+    tasks: [{
+      id: "ecorealms:t_compass"
+      type: "item"
+      item: "minecraft:compass"
+      count: 1L
+    },{
+      id: "ecorealms:t_saplings"
+      type: "item"
+      item: "minecraft:oak_sapling"
+      count: 16L
+    }]
+    rewards: [{
+      id: "ecorealms:r_starter"
+      type: "item"
+      item: "minecraft:bone_meal"
+      count: 24L
+    }]
+  }]
+}
