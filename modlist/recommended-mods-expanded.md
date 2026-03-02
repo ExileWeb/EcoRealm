@@ -19,7 +19,7 @@
 ## World & Environment
 - Regions Unexplored
 - Serene Seasons
-- Weather, Storms & Tornadoes
+- Project Atmosphere: Realistic climate
 - Pollution of the Realms
 - Nature's Compass
 
